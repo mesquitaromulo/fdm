@@ -38,7 +38,7 @@ Inicio
                se (x < 0) e (y > 0) entao
                   escreva("Q2")
                senao
-                  se (x > 0) e (y = 0) entao
+                  se (x <> 0) e (y = 0) entao
                      escreva("EIXO X")
                   senao
                      escreva("EIXO Y")
