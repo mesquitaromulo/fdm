@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Problemas Comuns GIT</title>
+</head>
+<body>
+  <h1>Problemas Comuns GIT</h1>
+  <h2>Como remover arquivos da área de stage</h2>
+  <p>git reset</p>
+  <h2>Desfazendo modificações não salvas</h2>
+  <p>git reset</p>
+  <p>git clean -df</p>
+  <p>git checkout -- .</p>
+  <h2>Como desfazer o último commit</h2>
+  <p>Desfazer o último coomit sem desfazer as modificações nos arquivos:</p>
+  <p>git reset --soft HEAD~1</p>
+  <h2>Deletando commits e também modificações nos arquivos</h2>
+  <p>Voltar o projeto ao estado de um dado commit(deletar commits posteriores a esse commit):</p>
+  <p>git reset --hard (código do commit)</p>
+  <p>Voltar o projeto ao estado do penúltimo commit:</p>
+  <p>git reset --hard HEAD~1</p>
+  <h2>Atualizar o repositório local em relação ao remoto</h2>
+  <p>git pull (nome do remote) (nome da branch)</p>
+  <h2>Como resolver push rejeitado</h2>
+  <p>Precisa atualizar o repositório local</p>
+  <p>git pull (nome do remote) (nome da branch)</p>
+  <h2>Como sobrescrever um histórico no Github</h2>
+  <p>git push -f (nome do remote) (nome do branch)</p>
+</body>
+</html>
